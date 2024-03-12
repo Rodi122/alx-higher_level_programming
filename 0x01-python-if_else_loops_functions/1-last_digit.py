@@ -3,7 +3,7 @@ import random
 number = -98
 # YOUR CODE HERE
 last_digit_sign = 1 if number > 0 else -1
-last_digit_val = number % 10 if last_digit_sign == 1 else number % -10
+last_digit = number % 10 if last_digit_sign == 1 else number % -10
 
 
 return_string = "Last digit of " + str(number) + " is " + str(last_digit)
